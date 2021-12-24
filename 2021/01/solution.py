@@ -22,7 +22,7 @@ def solution_part2(data):
     return solution_part1(window_sums)
 
 if __name__ == "__main__":
-    data = read_text_lines(fp='2021/01/sonar-data.txt')
+    data = read_text_lines(fp='sonar-data.txt')
     soln_part_1 = solution_part1(data)
     soln_part_2 = solution_part2(data)
     print('# Part 1: The number of increases was ', soln_part_1)
